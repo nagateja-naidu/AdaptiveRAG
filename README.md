@@ -265,9 +265,15 @@ The challenge uses:
 For my offline evaluation, I assumed the maintenance cost formula as:
 
 ```text
-Total Cost = (Number of Visits × €380)
-           + (Unattended Broken Gateway-Weeks × €600)
+Total Cost = (Number of Visits × €380) + (Unattended Broken Gateway-Weeks × €600)
 ```
+I applied the same calculation to both the baseline and my ML approach.
+
+The estimated cost of my ML approach is lower than the baseline by:
+
+### €330,280 - €280,300 = €49,980
+
+
 ## 7. Conclusion
 
 In this project, I started with the given 3-Sigma baseline and then built a machine learning approach using Random Forest.
